@@ -18,8 +18,8 @@ for (let i = 0; i < feedbacks.length; i++){
 
 
 
-const porcentPositivo = (positivo / (feedbacks.length)) * 100
-const porcentNegativo = (negativo / (feedbacks.length)) * 100
-const porcentNeutro = (neutro / (feedbacks.length)) * 100
+const porcentPositivo = (positivo / feedbacks.length) * 100
+const porcentNegativo = (negativo / feedbacks.length) * 100
+const porcentNeutro = (neutro / feedbacks.length) * 100
 
 console.log(`A empresa teve um total de ${feedbacks.length} feedbacks. \nTendo como resultado positivo: ${positivo} representando ${porcentPositivo.toFixed(2)}% dos votos. \nNegativo: ${negativo} representando ${porcentNegativo.toFixed(2)}% dos votos. \nNeutro: ${neutro} representando ${porcentNeutro.toFixed(2)}% dos votos`)
